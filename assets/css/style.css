@@ -78,7 +78,7 @@ header a {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    padding: 100px;
+    padding: 130px;
 }
 
 .middle h2{
@@ -93,3 +93,46 @@ header a {
     flex-wrap: wrap;
     justify-content: left;
 }
+
+/* Middle Style ENDS */
+
+/* About Me Style Starts */
+
+.about-me {
+    background: var(--secondary-color-);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.about-me h2 {
+    border-right: solid var(--primary-color-);
+    color: var(--primary-color-);
+    min-height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.about-me article {
+    background: var(--primary-color-);
+    display: flex;
+    margin: 20px;
+    flex: 3;
+    
+}
+.about-me .about-text {
+    background: var(--primary-color-);
+    color: var(--tertiary-color-);
+}
+
+.about-me p {
+    padding: 10px;
+}
+
+.about-me img 
+ {
+     object-fit: cover;
+ }
