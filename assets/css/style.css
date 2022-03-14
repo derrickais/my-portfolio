@@ -96,9 +96,8 @@ header a {
 
 /* Middle Style ENDS */
 
-/* About Me Style Starts */
-
-.about-me {
+/* Reusable Style Starts */
+.section {
     background: var(--secondary-color-);
     display: flex;
     flex-wrap: wrap;
@@ -106,7 +105,7 @@ header a {
     align-items: stretch;
 }
 
-.about-me h2 {
+.section-title {
     border-right: solid var(--primary-color-);
     color: var(--primary-color-);
     min-height: 100%;
@@ -116,18 +115,17 @@ header a {
     justify-content: center;
     margin: 20px;
 }
-.about-me article {
+.sub-section {
     background: var(--primary-color-);
     display: flex;
     margin: 20px;
     flex: 3;
+    color: var(--tertiary-color-);
     
 }
-.about-me .about-text {
-    background: var(--primary-color-);
-    color: var(--tertiary-color-);
-}
+/* Reusable Style Ends */
 
+/* About Me Style Starts */
 .about-me p {
     padding: 10px;
 }
@@ -136,3 +134,7 @@ header a {
  {
      object-fit: cover;
  }
+ 
+ /* About Me Style ENDS */
+ 
+ /* Work Styke Starts */
