@@ -13,9 +13,10 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+/* Header Style Starts */
 header {
     background: var(--secondary-color-);
-    color: var(--primary-color-);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -41,7 +42,7 @@ header img {
 header h1 {
     font-size: 50px;
     text-align: center;
-    color: var(--tertiary-color);
+    color: var(--tertiary-color-);
     padding: 20px;
 
 }
@@ -61,18 +62,34 @@ header nav ul {
 
 header a {
     text-decoration: none;
-    border-bottom: thin solid #f6a192;
+    border-bottom: thin solid var(--primary-color-);
     color: var(--primary-color-);
     padding: 15px;
     margin: 5px;
     
 }
 
-div {
-    background: var(--primary-color-);
-    color: var(--tertiary-color-);
-}
+/* Header Style ENDS */
+
+/* Middle Style Starts */
 
 .middle {
     background-image: url(../images/background.jpeg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 100px;
+}
+
+.middle h2{
+    color: var(--tertiary-color-);
+    background-color: var(--primary-color-);
+    position: absolute;
+    right: 0;
+    border: 5px solid #f19d8e;
+    border-right: 0 ;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
 }
