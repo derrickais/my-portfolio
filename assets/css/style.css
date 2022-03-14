@@ -1,0 +1,78 @@
+:root {
+    --primary-color- : #f6a192;
+    --secondary-color- : #494949;
+    --tertiary-color-: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header {
+    background: var(--secondary-color-);
+    color: var(--primary-color-);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+header .shift-left {
+    background-color: var(--primary-color-);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    color: var(--tertiary-color);
+    padding: 20px;
+
+}
+
+header nav {
+    margin-top: 50px;
+    
+}
+
+header nav ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header a {
+    text-decoration: none;
+    border-bottom: thin solid #f6a192;
+    color: var(--primary-color-);
+    padding: 15px;
+    margin: 5px;
+    
+}
+
+div {
+    background: var(--primary-color-);
+    color: var(--tertiary-color-);
+}
+
+.middle {
+    background-image: url(../images/background.jpeg);
+}
