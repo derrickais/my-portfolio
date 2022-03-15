@@ -114,7 +114,9 @@ header a {
     align-items: center;
     justify-content: center;
     margin: 20px;
+    font-size: 30px;
 }
+
 .sub-section {
     background: var(--primary-color-);
     display: flex;
@@ -128,6 +130,7 @@ header a {
 /* About Me Style Starts */
 .about-text p {
     padding: 5px;
+    font-size: 15px;
 }
 
 .about-img{
@@ -146,21 +149,64 @@ header a {
  /* About Me Style ENDS */
  
  /* Work Style Starts */
-.big-container  {
+.flex {
     display: flex;
-    width: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: var(--secondary-color-);
+    
+}
+ .big-container  {
+    position: relative;
+}
+.big-container img {
+    max-width: 95%;
+    border: 3px solid var(--primary-color-);
+    margin-bottom: 10px;
+    
 }
 
 .container {
-    width: 250px;
+    display: flex;
+    position:relative;
+    max-width:50%;
+    justify-content: space-between;
 }
 
+.container img {
+    max-width: 90%;
+    padding: 3px;
+    background: var(--primary-color-);
+    margin-bottom: 20px;
+}
+
+.big-container-text, .container-text{
+    position: absolute;
+    background: var(--primary-color-);
+    border: 10px solid  var(--primary-color-);
+    left: 0px;
+}
+
+.big-container-text {
+    bottom: 30px;
+    padding-left: 30px;
+}
+
+.container-text {
+    bottom: 40px;
+    padding-left: 10px;
+}
+/* Work Style ENDS *?
+
+/* Reach Out Style Starts */
 .reach-out {
     display: flex;
     justify-content: space-around;
     margin: 20px;
     flex: 3;
     color: var(--primary-color-);
+    text-align: center;
 }
 
 .reach-out a {
@@ -168,3 +214,4 @@ header a {
     border-bottom: thin solid var(--primary-color-);
     color: inherit;
 }
+/* Reach Out Style ENDS */
