@@ -69,6 +69,12 @@ header a {
     
 }
 
+header a:hover{
+    border:transparent;
+    color: var(--tertiary-color-);
+
+}
+
 /* Header Style ENDS */
 
 /* Middle Style Starts */
@@ -110,11 +116,10 @@ header a {
     color: var(--primary-color-);
     min-height: 100%;
     flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 20px;
     font-size: 30px;
+    text-align: right;
+    padding-right: 10px;
 }
 
 .sub-section {
@@ -164,7 +169,11 @@ header a {
     max-width: 95%;
     border: 3px solid var(--primary-color-);
     margin-bottom: 10px;
+    opacity: 0.75;
     
+}
+.big-container img:hover {
+    opacity: 1;
 }
 
 .container {
@@ -179,6 +188,11 @@ header a {
     padding: 3px;
     background: var(--primary-color-);
     margin-bottom: 20px;
+    opacity: 0.75;
+}
+
+.container img:hover {
+    opacity: 1;
 }
 
 .big-container-text, .container-text{
@@ -213,5 +227,10 @@ header a {
     text-decoration: none;
     border-bottom: thin solid var(--primary-color-);
     color: inherit;
+}
+
+.reach-out a:hover {
+    border: transparent;
+    color: var(--tertiary-color-);
 }
 /* Reach Out Style ENDS */
