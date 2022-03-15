@@ -1,0 +1,30 @@
+.under-construction {
+    background-image: url(../images/traffic-cones.jpeg);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 20%;
+    
+    
+}
+
+.under-construction h1, .under-construction p {
+    background-color: #f6a192;
+    color: white;
+}
+
+.under-construction h1{
+    padding-top: 50px;
+}
+
+.under-construction p {
+    padding-bottom: 50px;
+}
+
+.under-construction a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: thin solid white;
+}
