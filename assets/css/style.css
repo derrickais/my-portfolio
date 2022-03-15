@@ -126,15 +126,45 @@ header a {
 /* Reusable Style Ends */
 
 /* About Me Style Starts */
-.about-me p {
-    padding: 10px;
+.about-text p {
+    padding: 5px;
 }
 
-.about-me img 
- {
-     object-fit: cover;
+.about-img{
+    background-color: var(--secondary-color-);
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+   
+ }
+ .about-img img {
+     border-radius: 50%; 
+     border: 5px double var(--primary-color-) ;
+     max-height: 200px;
  }
  
  /* About Me Style ENDS */
  
- /* Work Styke Starts */
+ /* Work Style Starts */
+.big-container  {
+    display: flex;
+    width: 500px;
+}
+
+.container {
+    width: 250px;
+}
+
+.reach-out {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    flex: 3;
+    color: var(--primary-color-);
+}
+
+.reach-out a {
+    text-decoration: none;
+    border-bottom: thin solid var(--primary-color-);
+    color: inherit;
+}
