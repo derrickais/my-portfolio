@@ -11,6 +11,7 @@
 
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--secondary-color-);
 
 }
 
@@ -140,8 +141,6 @@ header a:hover{
 
 .about-img{
     background-color: var(--secondary-color-);
-    display: flex;
-    flex-wrap: nowrap;
     padding: 10px;
    
  }
@@ -234,3 +233,66 @@ header a:hover{
     color: var(--tertiary-color-);
 }
 /* Reach Out Style ENDS */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 1125px){
+    header {
+        justify-content: center;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px){
+    header {
+        display:block;
+    }
+ 
+    header a {
+        padding:0;
+        margin: 0;
+    }
+    
+    .section {
+        display: block;
+    }
+
+    .section-title {
+        min-height: 0;
+        text-align: center;
+        padding: 10px;
+        border-bottom:solid var(--primary-color-);
+        border-right: transparent;
+    }
+    
+    .sub-section {
+        flex-direction: column;
+    }
+
+    .about-img {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px){
+    header h1 {
+        font-size: 36px;
+    }
+
+    .middle h2 {
+        font-size: 15px;
+    }
+
+    .big-container-text{
+        font-size: 12px;
+    }
+    
+    .container-text{
+        font-size: 12px;
+    }
+
+    .reach-out a {
+        font-size: 12px;
+    }
+}
