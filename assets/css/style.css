@@ -1,6 +1,6 @@
 :root {
-    --primary-color- : #f6a192;
-    --secondary-color- : #494949;
+    --primary-color- : #EF8683;
+    --secondary-color- : #363636;
     --tertiary-color-: #ffffff;
 }
 
@@ -93,7 +93,7 @@ header a:hover{
     background-color: var(--primary-color-);
     position: absolute;
     right: 0;
-    border: 5px solid #f19d8e;
+    border: 5px solid var(--tertiary-color-);
     border-right: 0 ;
     padding: 25px;
     display: flex;
@@ -135,8 +135,8 @@ header a:hover{
 
 /* About Me Style Starts */
 .about-text p {
-    padding: 5px;
-    font-size: 15px;
+    padding: 7px;
+    font-size: 17px;
 }
 
 .about-img{
